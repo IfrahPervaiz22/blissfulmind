@@ -1,0 +1,33 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: system-ui, -apple-system, sans-serif;
+
+}
+
+:root {
+    --bg-color: rgb(0, 0, 0);
+    --snd-bg-color: rgb(254, 254, 254);
+    --text-color: rgb(51, 101, 208);
+    --main-color: #524bde;
+    text-align: center;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body {
+    padding: 0 5rem;
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+

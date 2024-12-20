@@ -26,7 +26,7 @@ html {
 }
 
 body {
-    padding: 0 5rem;
+    /* padding: 0 5rem; */
     background: var(--bg-color);
     color: var(--text-color);
 }
@@ -56,7 +56,7 @@ Header {
     justify-content: space-around;
     align-items: center;
     padding: 2rem 9%;
-    background: rgb(0, 0, 0.5);
+    /* background: rgb(0, 0, 0.5); */
     backdrop-filter: blur(10px);
     transition: all 0.5s ease;
 }
@@ -319,16 +319,16 @@ span {
     font-family: "Poppins" , sans-serif;
 }
 
-body {
+.login-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     background: url(../static/assets/img2.jpg) no-repeat;
     background-size: cover;
-    background-position: 30px 40px;
+    /* background-position: 30px 40px; */
 
-}
+} */
 
 .wrapper {
     width: 420px;
@@ -338,7 +338,7 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, .2);
     color: var(--bg-color); 
     border-radius: 10px;
-    padding: 30px 40px;
+    padding: 30px 40px;  
 }
 
 .wrapper h2 {

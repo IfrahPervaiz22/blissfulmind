@@ -15,8 +15,8 @@
 :root {
     --bg-color: rgb(255, 255, 255);
     --snd-bg-color: rgb(254, 254, 254);
-    --text-color: rgb(51, 101, 208);
-    --main-color: #524bde;
+    --text-color: rgb(41, 105, 232);
+    --main-color: #3974ebea;
     text-align: center;
 }
 
@@ -251,4 +251,68 @@ span {
     border-radius: 10px;
     object-fit: cover;
 }
+
+.about-container h2 {
+    font-size: 2.5rem;
+}
+
+.about-container p {
+    font-size: 0.5rem;
+}
+
+.about {
+    flex-direction: column;
+    text-align: center;
+}
+
+.about-img {
+    max-width: 400px;
+}
+
+/*Gallery Section Code*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' sans-serif;
+
+}
+
+.gallery-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px 20px 0 20px;
+}
+
+.gallery-text h2 {
+    font-size: 4rem;
+}
+
+.gallery-container .box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.gallery-container .box .dream{
+    display: flex;
+    flex-direction: column;
+    width: 32.5;
+}
+
+.gallery-container .box .dream img{
+    width: 100%;
+    padding-bottom: 15px;
+    border-radius: 5px;
+}
+
+/*Login Section Code*/
+
+
+
+
 
